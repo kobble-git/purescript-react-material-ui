@@ -1,3 +1,3 @@
 // module MaterialUI.DropDownMenu
 
-exports.dropDownMenuClass = require('material-ui/lib/DropDownMenu/DropDownMenu');
+exports.dropDownMenuClass = require('material-ui/DropDownMenu/DropDownMenu')['default'];

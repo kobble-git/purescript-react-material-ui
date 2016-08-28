@@ -1,3 +1,3 @@
 // module MaterialUI.CardHeader
 
-exports.cardHeaderClass = require('material-ui/lib/card/card-header');
+exports.cardHeaderClass = require('material-ui/Card/CardHeader')['default'];

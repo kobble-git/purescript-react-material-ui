@@ -31,6 +31,8 @@ menuItems :: Option MenuItemOption (Node)
 menuItems = opt "menuItems"
 onTouchTap :: Option MenuItemOption (EventHandlerOpt)
 onTouchTap = opt "onTouchTap"
+primaryText :: Option MenuItemOption (Node)
+primaryText = opt "primaryText"
 rightIcon :: Option MenuItemOption (ReactElement)
 rightIcon = opt "rightIcon"
 secondaryText :: Option MenuItemOption (Node)

@@ -1,3 +1,3 @@
 // module MaterialUI.CardActions
 
-exports.cardActionsClass = require('material-ui/lib/card/card-actions');
+exports.cardActionsClass = require('material-ui/Card/CardActions')['default'];
