@@ -33,5 +33,8 @@ plainIcon i = i mempty []
 styledIcon :: (Options SvgIconOption -> Array ReactElement -> ReactElement) -> UnknownType -> ReactElement
 styledIcon i s = i (style := s) []
 
-styledColoredIcon :: (Options SvgIconOption -> Array ReactElement -> ReactElement) -> String -> UnknownType -> ReactElement
-styledColoredIcon i c s = i (color := c <> style := s) []
+colorIcon :: (Options SvgIconOption -> Array ReactElement -> ReactElement) -> String -> ReactElement
+colorIcon i c = i (color := c) []
+
+styledColorIcon :: (Options SvgIconOption -> Array ReactElement -> ReactElement) -> String -> UnknownType -> ReactElement
+styledColorIcon i c s = i (color := c <> style := s) []

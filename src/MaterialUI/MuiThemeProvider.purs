@@ -10,8 +10,8 @@ foreign import data MuiThemeProviderOption :: *
 newtype MuiThemeProviderProps = MuiThemeProviderProps Foreign
 muiThemeProviderProps :: Options MuiThemeProviderOption -> MuiThemeProviderProps
 muiThemeProviderProps = MuiThemeProviderProps <<< options
-muiThemeProvider :: Options MuiThemeProviderOption -> Array ReactElement -> ReactElement
-muiThemeProvider opts = createElement muiThemeProviderClass (muiThemeProviderProps opts)
+muiThemeProvider :: Options MuiThemeProviderOption -> ReactElement -> ReactElement
+muiThemeProvider opts ele = createElement muiThemeProviderClass (muiThemeProviderProps opts) [ele]
 muiTheme :: Option MuiThemeProviderOption (Theme)
 muiTheme = opt "muiTheme"
 
