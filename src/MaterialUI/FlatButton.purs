@@ -19,7 +19,7 @@ disabled :: Option FlatButtonOption (Boolean)
 disabled = opt "disabled"
 hoverColor :: Option FlatButtonOption (String)
 hoverColor = opt "hoverColor"
-label :: Option FlatButtonOption (UnknownType)
+label :: Option FlatButtonOption (String)
 label = opt "label" -- custom
 labelPosition :: Option FlatButtonOption (UnknownType)
 labelPosition = opt "labelPosition" -- enum
