@@ -16,8 +16,8 @@
   "devDependencies": {
     "material-ui": "^0.14.2",
     "react": "^0.14.6",
+    "react-docgen": "^2.4.0",
     "react-dom": "^0.14.6",
-    "react-tap-event-plugin": "^0.2.1",
-    "react-docgen": "^2.4.0"
+    "react-tap-event-plugin": "^0.2.1"
   }
 }

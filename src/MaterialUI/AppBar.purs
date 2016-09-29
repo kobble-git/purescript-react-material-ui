@@ -37,6 +37,8 @@ style :: Option AppBarOption (UnknownType)
 style = opt "style" -- object
 title :: Option AppBarOption (Node)
 title = opt "title"
+key :: Option AppBarOption (Node)
+key = opt "key"
 titleStyle :: Option AppBarOption (UnknownType)
 titleStyle = opt "titleStyle" -- object
 zDepth :: Option AppBarOption (UnknownType)

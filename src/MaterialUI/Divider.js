@@ -1,3 +1,3 @@
 // module MaterialUI.Divider
 
-exports.dividerClass = require('material-ui/lib/divider');
+exports.dividerClass = require('material-ui/Divider/Divider')['default'];

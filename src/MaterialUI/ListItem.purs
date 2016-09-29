@@ -25,6 +25,8 @@ innerDivStyle :: Option ListItemOption (UnknownType)
 innerDivStyle = opt "innerDivStyle" -- object
 insetChildren :: Option ListItemOption (Boolean)
 insetChildren = opt "insetChildren"
+key :: Option ListItemOption (Node)
+key = opt "key"
 leftAvatar :: Option ListItemOption (ReactElement)
 leftAvatar = opt "leftAvatar"
 leftCheckbox :: Option ListItemOption (ReactElement)

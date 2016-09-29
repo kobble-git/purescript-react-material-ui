@@ -15,6 +15,8 @@ children :: Option ListOption (Node)
 children = opt "children"
 insetSubheader :: Option ListOption (Boolean)
 insetSubheader = opt "insetSubheader"
+key :: Option ListOption (Node)
+key = opt "key"
 style :: Option ListOption (UnknownType)
 style = opt "style" -- object
 subheader :: Option ListOption (Node)
