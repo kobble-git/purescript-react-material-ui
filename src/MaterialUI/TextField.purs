@@ -1,7 +1,7 @@
 module MaterialUI.TextField where
 
 import Prelude (Unit, unit, (<<<))
-import React (EventHandler, ReactClass, ReactElement, createElement)
+import React (EventHandler, ReactClass, ReactElement, createElement, Event)
 import Data.Options (Option, Options, opt, options)
 import Data.Foreign (Foreign)
 import MaterialUI (EventHandlerOpt, UnknownType, Node)
@@ -51,7 +51,7 @@ multiLine :: Option TextFieldOption (Boolean)
 multiLine = opt "multiLine"
 name :: Option TextFieldOption (String)
 name = opt "name"
-onChange :: Option TextFieldOption (EventHandler UnknownType)
+onChange :: Option TextFieldOption (EventHandler Event)
 onChange = opt "onChange"
 rows :: Option TextFieldOption (Int)
 rows = opt "rows"
