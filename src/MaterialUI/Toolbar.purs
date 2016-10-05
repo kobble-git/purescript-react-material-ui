@@ -19,3 +19,5 @@ noGutter :: Option ToolbarOption (Boolean)
 noGutter = opt "noGutter"
 style :: Option ToolbarOption (UnknownType)
 style = opt "style" -- object
+key :: Option ToolbarOption (Node)
+key = opt "key"
