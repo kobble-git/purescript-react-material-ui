@@ -25,7 +25,7 @@ disabledLabelColor :: Option RaisedButtonOption (String)
 disabledLabelColor = opt "disabledLabelColor"
 fullWidth :: Option RaisedButtonOption (Boolean)
 fullWidth = opt "fullWidth"
-label :: Option RaisedButtonOption (UnknownType)
+label :: Option RaisedButtonOption (String)
 label = opt "label" -- custom
 labelColor :: Option RaisedButtonOption (String)
 labelColor = opt "labelColor"
@@ -43,6 +43,10 @@ onMouseUp :: Option RaisedButtonOption (EventHandlerOpt)
 onMouseUp = opt "onMouseUp"
 onTouchEnd :: Option RaisedButtonOption (EventHandlerOpt)
 onTouchEnd = opt "onTouchEnd"
+onClick :: Option RaisedButtonOption (EventHandlerOpt)
+onClick = opt "onClick"
+onTouchTap :: Option RaisedButtonOption (EventHandlerOpt)
+onTouchTap = opt "onTouchTap"
 onTouchStart :: Option RaisedButtonOption (EventHandlerOpt)
 onTouchStart = opt "onTouchStart"
 primary :: Option RaisedButtonOption (Boolean)

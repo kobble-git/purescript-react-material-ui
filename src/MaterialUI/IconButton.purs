@@ -31,6 +31,8 @@ onMouseEnter :: Option IconButtonOption (EventHandlerOpt)
 onMouseEnter = opt "onMouseEnter"
 onMouseLeave :: Option IconButtonOption (EventHandlerOpt)
 onMouseLeave = opt "onMouseLeave"
+onTouchTap :: Option IconButtonOption (EventHandlerOpt)
+onTouchTap = opt "onTouchTap"
 style :: Option IconButtonOption (UnknownType)
 style = opt "style" -- object
 tooltip :: Option IconButtonOption (Node)
