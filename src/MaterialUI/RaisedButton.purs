@@ -25,6 +25,8 @@ disabledLabelColor :: Option RaisedButtonOption (String)
 disabledLabelColor = opt "disabledLabelColor"
 fullWidth :: Option RaisedButtonOption (Boolean)
 fullWidth = opt "fullWidth"
+icon :: Option RaisedButtonOption (ReactElement)
+icon = opt "icon"
 label :: Option RaisedButtonOption (String)
 label = opt "label" -- custom
 labelColor :: Option RaisedButtonOption (String)

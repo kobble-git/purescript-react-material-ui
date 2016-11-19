@@ -19,6 +19,8 @@ disabled :: Option FlatButtonOption (Boolean)
 disabled = opt "disabled"
 hoverColor :: Option FlatButtonOption (String)
 hoverColor = opt "hoverColor"
+icon :: Option FlatButtonOption (ReactElement)
+icon = opt "icon"
 label :: Option FlatButtonOption (String)
 label = opt "label" -- custom
 labelPosition :: Option FlatButtonOption (UnknownType)
@@ -33,6 +35,8 @@ onMouseLeave :: Option FlatButtonOption (EventHandlerOpt)
 onMouseLeave = opt "onMouseLeave"
 onTouchStart :: Option FlatButtonOption (EventHandlerOpt)
 onTouchStart = opt "onTouchStart"
+onTouchTap :: Option FlatButtonOption (EventHandlerOpt)
+onTouchTap = opt "onTouchTap"
 primary :: Option FlatButtonOption (Boolean)
 primary = opt "primary"
 rippleColor :: Option FlatButtonOption (String)
