@@ -33,7 +33,7 @@ leftCheckbox :: Option ListItemOption (ReactElement)
 leftCheckbox = opt "leftCheckbox"
 leftIcon :: Option ListItemOption (ReactElement)
 leftIcon = opt "leftIcon"
-nestedItems :: Option ListItemOption (UnknownType)
+nestedItems :: Option ListItemOption (Array ReactElement)
 nestedItems = opt "nestedItems" -- arrayOf
 nestedLevel :: Option ListItemOption (Number)
 nestedLevel = opt "nestedLevel"
