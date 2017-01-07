@@ -1,6 +1,6 @@
 module MaterialUI.RadioButtonGroup where
 import Prelude (Unit, unit, (<<<))
-import React (EventHandler, ReactClass, ReactElement, createElement)
+import React (EventHandler, ReactClass, ReactElement, createElement, Event)
 import Data.Options (Option, Options, opt, options)
 import Data.Foreign (Foreign)
 import MaterialUI (EventHandlerOpt, UnknownType, Node)
@@ -21,7 +21,7 @@ labelPosition :: Option RadioButtonGroupOption (UnknownType)
 labelPosition = opt "labelPosition" -- enum
 name :: Option RadioButtonGroupOption (String)
 name = opt "name"
-onChange :: Option RadioButtonGroupOption (EventHandlerOpt)
+onChange :: Option RadioButtonGroupOption (EventHandler Event)
 onChange = opt "onChange"
 style :: Option RadioButtonGroupOption (UnknownType)
 style = opt "style" -- object

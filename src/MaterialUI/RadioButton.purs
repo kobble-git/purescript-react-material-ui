@@ -19,9 +19,13 @@ iconStyle :: Option RadioButtonOption (UnknownType)
 iconStyle = opt "iconStyle" -- object
 labelPosition :: Option RadioButtonOption (UnknownType)
 labelPosition = opt "labelPosition" -- enum
+label :: Option RadioButtonOption (String)
+label = opt "label" -- enum
 labelStyle :: Option RadioButtonOption (UnknownType)
 labelStyle = opt "labelStyle" -- object
 onCheck :: Option RadioButtonOption (EventHandlerOpt)
 onCheck = opt "onCheck"
 value :: Option RadioButtonOption (String)
 value = opt "value"
+style :: Option RadioButtonOption (UnknownType)
+style = opt "style" -- object

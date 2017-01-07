@@ -1,3 +1,3 @@
 // module MaterialUI.RadioButtonGroup
 
-exports.radioButtonGroupClass = require('material-ui/lib/radio-button-group');
+exports.radioButtonGroupClass = require('material-ui/RadioButton/RadioButtonGroup')['default'];

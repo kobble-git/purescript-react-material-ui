@@ -1,6 +1,6 @@
 module MaterialUI.DropDownMenu where
 import Prelude (Unit, unit, (<<<))
-import React (EventHandler, ReactClass, ReactElement, createElement)
+import React (EventHandler, ReactClass, ReactElement, createElement, Event)
 import Data.Options (Option, Options, opt, options)
 import Data.Foreign (Foreign)
 import MaterialUI (EventHandlerOpt, UnknownType, Node)
@@ -33,7 +33,7 @@ menuItems :: Option DropDownMenuOption (UnknownType)
 menuItems = opt "menuItems" -- custom
 menuStyle :: Option DropDownMenuOption (UnknownType)
 menuStyle = opt "menuStyle" -- object
-onChange :: Option DropDownMenuOption (EventHandlerOpt)
+onChange :: Option DropDownMenuOption (EventHandler Event)
 onChange = opt "onChange"
 openImmediately :: Option DropDownMenuOption (Boolean)
 openImmediately = opt "openImmediately"
